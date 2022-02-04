@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-image: url('img/back2.jpg');
+    width: 1000px ;
+    height: 800px;
+    color: cornsilk;
+    
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 49px;
+    top: 10px;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    color:yellow;
+    font-size: 30px;
+    transition: all 0.3s;
+
+}
+.left div:hover{
+    color: rgb(143, 33, 187);
+    cursor: pointer;
+
+}
+.left img{
+    width: 78px;
+    filter: invert(100%);
+}
+.middle{
+    display: block;
+    margin:15px auto;
+    width: 700px;
+    top: 10px;
+    padding-left: 350px;
+    font-family: 'Lobster', cursive
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 28px;
+    
+}
+.navbar li a{
+    color: rgb(192, 17, 177);
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.navbar li :hover{
+
+    color: darkcyan;
+    border-radius:0.8rem;
+    font-size: 27.5px;
+    text-decoration:underline;
+    border-radius:3px solid rgb(214, 211, 8);
+    
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 49px;
+    top: 10px;
+
+}
+
+.btn{
+    margin: 10px 10.5px;
+    background-color: black;
+    color: rgb(12, 132, 141);
+    padding: 6px 12px;
+    
+    font-size:19px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    font-weight: bolder;
+    
+    transition: all 0.4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    
+    font-size: 19px;
+    border-radius: 1rem;
+    border: 2px solid green;
+    color: yellow;
+    
+   
+}
+
+.container{
+    border: 2px solid rgb(245, 22, 22);
+    margin: 200px 100px;
+    padding: 25px 25px;
+    font-family: 'Chewy', cursive;
+    border-radius: 1rem;
+    width: 60%;
+    height: 400px;
+}
+.container h3{
+    font-size: 37.5px;
+    color: rgba(248, 136, 9, 0.959);
+    font-weight: bolder;
+    text-align: center;
+}
+.container h3:hover{
+    color: rgba(27, 247, 228, 0.877);
+    cursor: pointer;
+    
+}
+.form-group input{
+    text-align: center;
+    inline-size: auto;
+    width: 400px;
+    padding: 15px 50px ;
+    display: block;
+    border-radius: 1rem ;
+    margin: 2px 40px;
+    border: 1.5px solid green;
+    height: 8px;
+}
+.container button{
+
+    display:block;
+    margin: 10px 85px;
+    width: 410px;
+    text-align: center;
+
+}
+.form-group input:hover{
+    font-size: 22px;
+    cursor: pointer;
+}
